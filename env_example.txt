@@ -1,0 +1,20 @@
+# OpenAI API Configuration
+OPENAI_API_KEY=your_openai_api_key_here
+
+# News API Configuration (Optional)
+NEWS_API_KEY=your_news_api_key_here
+
+# Application Configuration
+DEBUG=True
+LOG_LEVEL=INFO
+
+# Data Collection Settings
+NEWS_UPDATE_INTERVAL=300  # 5 minutes
+MARKET_UPDATE_INTERVAL=60  # 1 minute
+MAX_NEWS_ARTICLES=50
+MAX_MARKET_SYMBOLS=20
+
+# Analysis Settings
+SENTIMENT_ANALYSIS_MODEL=textblob
+RISK_ASSESSMENT_THRESHOLD=0.7
+CONFIDENCE_THRESHOLD=0.8
