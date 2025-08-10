@@ -8,9 +8,12 @@ A sophisticated AI-powered system that analyzes geopolitical events and their im
 - **Market Impact Assessment**: Evaluates how geopolitical events affect different market sectors
 - **Sentiment Analysis**: Uses NLP to analyze sentiment in news and social media
 - **Market Data Integration**: Fetches real-time market data using Yahoo Finance
-- **Interactive Dashboard**: Beautiful Streamlit-based web interface
+- **Modern React UI**: Beautiful, responsive web interface built with React and Tailwind CSS
+- **Interactive Dashboard**: Real-time overview with charts and metrics
 - **AI-Powered Insights**: Uses OpenAI's GPT models for intelligent analysis
 - **Risk Assessment**: Provides geopolitical risk scores for different regions and sectors
+- **Historical Analysis**: Time-series analysis with export capabilities
+- **Settings Management**: Configurable API keys and preferences
 
 ## Installation
 
@@ -29,14 +32,37 @@ A sophisticated AI-powered system that analyzes geopolitical events and their im
 
 ## Usage
 
-Run the application:
+### Option 1: React Frontend (Recommended)
+
+1. Start the Flask API backend:
+   ```bash
+   python api.py
+   ```
+
+2. In a new terminal, navigate to the frontend directory and start the React app:
+   ```bash
+   cd frontend
+   npm install
+   npm start
+   ```
+
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+### Option 2: Streamlit Interface (Legacy)
+
+Run the original Streamlit application:
 ```bash
 streamlit run app.py
 ```
 
 ## Project Structure
 
-- `app.py`: Main Streamlit application
+- `api.py`: Flask API backend for React frontend
+- `app.py`: Legacy Streamlit application
+- `frontend/`: React frontend application
+  - `src/pages/`: Page components (Dashboard, Analysis, etc.)
+  - `src/components/`: Reusable UI components
+  - `src/services/`: API client and services
 - `src/`: Core application modules
   - `data_collector.py`: News and market data collection
   - `analyzer.py`: AI-powered analysis engine
