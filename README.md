@@ -4,16 +4,16 @@ A sophisticated AI-powered system that analyzes geopolitical events and their im
 
 ## Features
 
-- **Real-time News Analysis**: Scrapes and analyzes geopolitical news from multiple sources
-- **Market Impact Assessment**: Evaluates how geopolitical events affect different market sectors
-- **Sentiment Analysis**: Uses NLP to analyze sentiment in news and social media
-- **Market Data Integration**: Fetches real-time market data using Yahoo Finance
-- **Modern React UI**: Beautiful, responsive web interface built with React and Tailwind CSS
-- **Interactive Dashboard**: Real-time overview with charts and metrics
-- **AI-Powered Insights**: Uses OpenAI's GPT models for intelligent analysis
-- **Risk Assessment**: Provides geopolitical risk scores for different regions and sectors
-- **Historical Analysis**: Time-series analysis with export capabilities
-- **Settings Management**: Configurable API keys and preferences
+ **Real-time News Analysis**: Scrapes and analyzes geopolitical news from multiple sources
+ **Market Impact Assessment**: Evaluates how geopolitical events affect different market sectors
+ **Sentiment Analysis**: Uses NLP to analyze sentiment in news and social media
+ **Market Data Integration**: Fetches real-time market data using Yahoo Finance
+ **Modern React UI**: Beautiful, responsive web interface built with React and Tailwind CSS
+ **Interactive Dashboard**: Real-time overview with charts and metrics
+ **AI-Powered Insights**: Uses OpenAI's GPT models for intelligent analysis
+ **Risk Assessment**: Provides geopolitical risk scores for different regions and sectors
+ **Historical Analysis**: Time-series analysis with export capabilities
+ **Settings Management**: Configurable API keys and preferences
 
 ## Installation
 
@@ -27,7 +27,7 @@ A sophisticated AI-powered system that analyzes geopolitical events and their im
    cp .env.example .env
    ```
 4. Add your API keys to `.env`:
-   - `OPENAI_API_KEY`: Your OpenAI API key
+   - `OPENAI_API_KEY`: " Your OpenAI API key "
    - `NEWS_API_KEY`: Your NewsAPI key (optional)
 
 ## Usage
